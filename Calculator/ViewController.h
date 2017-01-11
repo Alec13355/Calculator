@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)Divide:(id)sender;
+- (IBAction)Subtract:(id)sender;
+- (IBAction)Multiply:(id)sender;
+- (IBAction)Add:(id)sender;
+- (IBAction)Equals:(id)sender;
+@property (weak, nonatomic) IBOutlet UITextField *Numbers;
 
 @end
 
