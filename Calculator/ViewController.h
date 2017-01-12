@@ -9,12 +9,14 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)Clear:(id)sender;
 
 - (IBAction)Divide:(id)sender;
 - (IBAction)Subtract:(id)sender;
 - (IBAction)Multiply:(id)sender;
 - (IBAction)Add:(id)sender;
 - (IBAction)Equals:(id)sender;
+- (IBAction)Prime:(id)sender;
 @property (weak, nonatomic) IBOutlet UITextField *Numbers;
 
 @end
